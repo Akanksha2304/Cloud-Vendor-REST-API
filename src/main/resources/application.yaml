@@ -1,0 +1,13 @@
+spring:
+  database:
+    url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
+    username: root
+    password: ashu@123
+
+jpa:
+  properties:
+    hibernet:
+      dialect: org.hibernetdialec.MySQL5InnoDBDialect
+
+
+#jpa.hibernet.ddl_auto: create
